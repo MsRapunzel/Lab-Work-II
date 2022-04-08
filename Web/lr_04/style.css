@@ -1,0 +1,11 @@
+#count
+{
+	overflow: hidden;
+	width: 100%;
+	float: left;
+}
+
+#out
+{
+	display: none;
+}

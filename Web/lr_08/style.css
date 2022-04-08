@@ -1,0 +1,157 @@
+body {
+    margin: 0 auto;
+    width: 51%;
+}
+
+img.bg {
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+nav {
+    width: 25%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: bold 15px sans-serif;
+    background: #D9C8C7;
+}
+
+.nav {
+    display: flex;
+}
+
+.fon {
+    position: relative;
+    width: 100%;
+    height: 535px;
+    background-image: url("fon.jpg");
+    background-size: 110% 110%;
+    background-repeat: no-repeat;
+<!--filter: brightness(90%);-->
+}
+
+.left_big, .right_big {
+    border-radius: 47px;
+    position: relative;
+    top: 2%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.left_big {
+    float: left;
+    left: 2%;
+    width: 20%;
+    height: 60%;
+}
+
+.right_big {
+    float: right;
+    width: 76%;
+    height: 94%;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_small_one, .right_small_one, .left_small_two, .right_small_two {
+    position: relative;
+    height: 39%;
+    font-size: 1vh;
+    line-height: 0.9vh;
+}
+
+.left_small_one, .left_small_two {
+    border-radius: 100px 0px 0px 100px;
+    float: left;
+    width: 40.5%;
+    left: 7%;
+    background-color: rgba(255, 207, 212, 0.8);
+}
+
+.right_small_one, .right_small_two {
+    float: right;
+    right: 3.5%;
+    width: 49%;
+    margin-top: 3.5%;
+    margin-bottom: 7%;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.left_small_one, .right_small_one {
+    margin-top: 7%;
+    margin-bottom: 3.5%;
+}
+
+.left_small_two, .right_small_two {
+    margin-top: 3.5%;
+    margin-bottom: 7%;
+}
+
+.footer {
+    background: #D9C8C7;
+    width: 100%;
+    height: 36px;   
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 70%;
+    height: 32%;
+}
+.round {
+    width: 100%;
+    height: 95%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.photo_gir {
+    position: relative;
+    float: left;
+    margin: 1.5%;
+    width: 47%;
+    height: 185px;
+}
+
+.photo_el_one, .photo_el_two {
+    position: relative;
+    float: right;
+    margin: 1.5% 3.5% 0% 0%;
+    width: 46%;
+}
+
+.photo_el_one {
+    height: 28%;
+}
+
+.photo_el_two {
+    height: 68%;
+}
+.flora {
+    float: left;
+    margin: 2.5% 2% 2% 1%;
+    width: 47%;
+    height: 48%;
+}
+h3, p {
+    float: right;
+}
+h3 {
+    margin: 10px 7px 15px 0px;
+    color: #367C21;
+}
+p {
+    margin: 0px 7px 5px 28px;
+    text-indent: 12px;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+#violet { color: #4E1E86; }

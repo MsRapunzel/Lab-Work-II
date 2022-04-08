@@ -1,0 +1,53 @@
+body { font-family: Comic Sans MS; }
+
+table {
+	border: 5px solid white;
+	cellpadding:  0;
+	cellspacing:  0;
+	width: 100%;
+}
+
+th { font-size: 25px;}
+
+h1 { font-size: 35px; }
+
+.img_size{
+	width: 250px;
+	height: 170px;
+	margin-top: 14px;
+    margin-left: 2%;
+    margin-bottom: 12px;
+    margin-right: -4px;
+}
+
+.main_text{
+	text-align: justify;
+	text-indent:1.25cm;
+	font-size:15px;
+	margin: 15px;
+}
+
+.list {
+	font-size:14px;
+	margin: 15px;
+	background-color: #D1A4F5;
+	margin-bottom: 50%;
+}
+
+.bottom{
+	background-color: #8860A8;
+	font-size:18px;
+	color: floralwhite;
+	text-align: center;
+	margin:15px;
+
+}
+
+.active{ background-color: #68A881; }
+
+.nonactive { background-color: #8CF5B4; }
+
+a:link { color: green;}
+a:visited { color: darkgreen;}
+a:focus { color: #71E3F0;}
+
